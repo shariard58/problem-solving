@@ -1,1 +1,1 @@
-console.log("this is shariar duke");
+console.log("the is shariar");

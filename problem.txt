@@ -1,14 +1,11 @@
-🧩 Problemটা কী?
+Problem Name: First Unique Character in a String
 
-তোমাকে একটা array দেওয়া হবে:
+What: Find index of first character that appears ONLY ONCE
+      If none exists → return -1
 
-prices = [7, 1, 5, 3, 6, 4]
+Example 1: s = "leetcode" → 0 (l appears once)
+Example 2: s = "loveleetcode" → 2 (v is first unique char)
+Example 3: s = "aabb" → -1 (no unique chars)
 
-প্রতিটা number হলো ওই দিনের stock price।
-
-তোমাকে:
-
-একদিন buy করতে হবে
-তারপর পরের কোনো একদিন sell করতে হবে
-Buy অবশ্যই Sell-এর আগে হতে হবে
-তোমাকে maximum profit বের করতে হবে
+Pattern: Hash Map / Frequency
+Expected Complexity: O(n) time, O(1) space

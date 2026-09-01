@@ -1,14 +1,41 @@
-🧩 Problemটা কী?
+PROBLEM #8: RUNNING SUM OF 1D ARRAY 🚀
 
-তোমাকে একটা array দেওয়া হবে:
+Problem Name: Running Sum of 1d Array
 
-prices = [7, 1, 5, 3, 6, 4]
+Difficulty: EASY | Pattern: Prefix Sum
 
-প্রতিটা number হলো ওই দিনের stock price।
+What: Return array of running sum. At each index i = sum of all elements from 0 to i.
 
-তোমাকে:
+Examples:
 
-একদিন buy করতে হবে
-তারপর পরের কোনো একদিন sell করতে হবে
-Buy অবশ্যই Sell-এর আগে হতে হবে
-তোমাকে maximum profit বের করতে হবে
+Input: nums = [1,2,3,4]
+Output: [1,3,6,10]
+Explanation:
+  Index 0: 1
+  Index 1: 1+2 = 3
+  Index 2: 1+2+3 = 6
+  Index 3: 1+2+3+4 = 10
+
+Input: nums = [3,1,2,10,1]
+Output: [3,4,6,16,17]
+
+Input: nums = [1,-2,3,4,-5]
+Output: [1,-1,2,6,1]
+
+Constraints:
+
+1 <= nums.length <= 1000
+-10^6 <= nums[i] <= 10^6
+
+Expected:
+
+⏱️ Time: O(n)
+💾 Space: O(n) - for output array
+
+Submit:
+
+💻 Code
+📝 Explanation
+⏱️ Complexity
+
+GO! 🔥
